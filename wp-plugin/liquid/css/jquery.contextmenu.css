@@ -1,0 +1,13 @@
+/* Generic context menu styles */
+.contextMenu {
+	position: absolute;
+	z-index: 2147483646;
+	display: none;
+}
+
+#hw_linkpreview {
+	position: absolute;
+	z-index: 99999999;
+	display: none;
+}
+

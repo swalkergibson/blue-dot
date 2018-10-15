@@ -1,0 +1,63 @@
+ul#menu, ul#menu ul {
+	list-style-type:none;
+	text-align:left;
+	margin: 0;
+	padding: 0;
+	width: 10em;
+	display:none;
+}
+ul#menu {
+	border:solid 1px #C9C6C8;
+	background:#757676;
+	font:bolder 10px Verdana, Arial, sans-serif;
+	position:relative;
+	top:-2px;
+	left:-15px;
+	-moz-box-shadow: 1px 1px 1px 1px #878787;
+	-webkit-box-shadow: 1px 1px 1px 1px #878787;
+	z-index:10000;
+}
+ul#menu a {
+	display: block;
+	text-decoration: none;
+}
+ul#menu li a {
+	color: #fff;
+	padding: 0.5em;
+	background:#757676;
+}
+ul#menu li a:hover {
+	background: #4F4E4F;
+	border:solid 1px #CFCDCE;
+	width:9.5em;
+	-moz-box-shadow: 1px 1px 1px 1px #878787;
+	-webkit-box-shadow: 1px 1px 1px 1px #878787;
+	font:bold 10px Verdana, Arial, sans-serif;
+	color:#FFFFFF;
+	position:relative;
+	left:-4px;
+	text-indent:2px;
+}
+ul#menu li ul li a 
+{
+    /*background:url(../images/hierarchal_menu_submenu_bg.gif) repeat-y top left;*/
+	background: #D3D3D4;
+	color: #000;
+}
+ul#menu li ul li a:hover {
+	background: #4F4E4F;
+	border:solid 1px #B8B8B8;
+}
+.submit {
+	width:92px;
+	height:13px;
+	margin-left:2px;
+	border:solid 1px #C3C4C4;
+	background:url(../images/textbox_bg.gif) repeat-x top left;
+	-moz-box-shadow: 1px 1px 1px 1px #878787;
+	-webkit-box-shadow: 1px 1px 1px 1px #878787;
+	color:#FFF;
+}
+ul#menu li ul li.input_bg {
+	background: #D3D3D4;
+}

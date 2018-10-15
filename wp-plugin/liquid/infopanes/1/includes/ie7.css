@@ -1,0 +1,25 @@
+.hierarchal_menu {
+	position:relative !important;
+	top:-4px !important;
+}
+ul#menu {
+	position:relative !important;
+	top:-6px !important;
+}
+#year_middle ul {
+	width:90px !important;
+	position:relative !important;
+	left:-45px !important;
+}
+#year_middle ul li {
+	position:relative !important;
+	left:0px !important;
+}
+#year_middle ul li:hover {
+	position:relative !important;
+	left:-4px !important;
+}
+#year_middle div {
+	position:relative !important;
+	top:0px !important;
+}

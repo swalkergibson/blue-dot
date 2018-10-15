@@ -1,0 +1,70 @@
+.hierarchal_menu {
+	position:relative !important;
+	top:-5px !important;
+}
+#date_time {
+    position:absolute !important;
+	text-align:center !important;
+}
+#year_middle
+{
+	background-repeat:no-repeat !important;
+    position:absolute !important;
+}
+#year_middle div {
+	position:relative !important;
+	top:0px !important;
+}
+#year_middle ul
+{
+	width:90px !important;
+    position:relative !important;
+    left:-90px !important;
+}
+#year_middle ul li {
+	position:relative !important;
+	left:0px !important;
+}
+#year_middle ul li:hover {
+	position:relative !important;
+	left:-4px !important;
+}
+ul#menu 
+{
+    float:left !important;
+	position:relative !important;
+	top:-7px !important;
+	left:-20px !important;
+}
+ul#menu li a {
+	padding: 0.2em !important;
+	height:15px !important;
+	text-indent:5px !important;
+}
+ul#menu li a:hover {
+	padding: 0.2em !important;
+	height:15px !important;
+	position:relative !important;
+	left:0px !important;
+	text-indent:5px !important;
+}
+
+/*#top_div {
+	width:655px !important;
+}*/
+
+.middle_panel {
+	background-repeat:no-repeat !important;
+}
+#bottom_div_bar 
+{
+    position:relative !important;
+    top:-5px !important;
+}
+#top_arrow, #bottom_arrow {
+	padding:0 0 0 0 !important;
+}
+#ad_left_container
+{
+    padding-top:24px !important;
+}

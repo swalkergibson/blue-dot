@@ -1,0 +1,61 @@
+			#hw-screenshot{
+				position:absolute;
+				border:1px solid #ccc;
+				background:#333;
+				padding:5px;
+				display:none;
+				color:#fff;
+			}
+			#hw-keyword-preview{
+				position:absolute;
+				border:1px solid #ccc;
+				background:#333;
+				padding:5px;
+				display:none;
+				color:#fff;
+			}
+
+.hw_item_hide {
+	display: none !important;
+}
+.hw_item_show {
+	display: block;
+}
+
+/*background: rgb(255, 214, 0) none repeat scroll 0% 0% ! important;*/
+.hw-highlight-text {  background:none repeat scroll 0 0 #FFF700 !important; }
+.hw-hide-text { color: rgb(204, 204, 204); }
+.hw-lift-text { background:rgb(255, 214, 0);  }
+
+#hwmenu-context {text-align:left;}
+
+
+.hw_definitions_highlight{
+}
+.hw_definitions_highlight_mouseout{
+}
+.hw_definitions_highlight_mouseover{
+
+}
+
+.hwTitleLabel{
+    text-decoration: none;
+}
+
+.hwTitleLabelBottom{
+    text-decoration: none;
+}
+
+.hwTitleLabelBottom > a{
+    text-decoration: none;
+}
+
+.hwTitleLabel-hover{
+    text-decoration: underline;
+}
+
+.hwTitleLabelBottom-hover{
+    text-decoration: underline;
+}
+
+

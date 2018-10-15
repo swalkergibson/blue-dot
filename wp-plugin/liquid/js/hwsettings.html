@@ -1,0 +1,158 @@
+<div style="display: none" >
+	<div id="hw-tabs-theme">
+			<div id="hw-tabs">
+			<ul>
+				 
+				<li><a href="#hw-popup">Pop-Up</a></li>
+				<li><a href="#hw-localize">Localize</a></li>
+				<li><a href="#hw-services">Services</a></li>
+				<li><a href="#hw-views">Views</a></li>
+			</ul>
+			
+			
+			<div id="hw-popup">
+				The Hyperword menu appears:<br />
+				<select id="hw-popup-appears" name="hw-popup-appears">
+					<option value="wyst">When you select text</option>
+					<option value="wystahe">When you select text and hit Enter</option>
+					<option value="dnakso">Does not appear, keyboard shortcuts only</option>
+					<option value="wystahf">When you select text and hit F2</option>
+					<option value="srcost">Shift-Right click on selected text</option>
+					<option value="wystahse">When you select text and hit Shift+Esc</option>
+					<option value="wystwhdtck">When you select text while holding down the Command Key</option>
+					<option value="wystamoi">When you select text and mouse over icon</option>
+				</select>
+				<br /><br />
+				Open results in:<br />
+				<select id="hw-popup-open-results" name="hw-popup-open-results">
+					<option value="sw">Same window</option>
+					<option value="nw">New window</option>
+					<option value="al">As lightbox</option>
+				</select>
+				<br /><br />
+				Alternativly, Ctrl/Command click opens in:<br />
+				<select id="hw-popup-alternate-open-results" name="hw-popup-alternate-open-results">
+					<option value="sw">Same window</option>
+					<option value="nw">New window</option>
+					<option value="al">As lightbox</option>
+				</select>
+				<br /><br />
+				Hyperwords in Right-Click / Control-Click Menu:<br />
+				<select id="hw-popup-in-right-click" name="hw-popup-in-right-click">
+					<option value="On">On</option>
+					<option value="Off">Off</option>
+				</select>	
+			</div>
+			
+		
+		
+		<div id="hw-localize">
+				<h2> Services </h2><br />
+				Amazon:<br />
+				<select id="hw-localize-Amazon" name="hw-localize-Amazon">
+				</select>
+				<br /><br />	
+				eBay:<br />
+				<select id="hw-localize-Ebay" name="hw-localize-Ebay">
+
+				</select>
+				<br /><br />			
+				Google:<br />
+				<select id="hw-localize-google" name="hw-localize-google">
+				</select>
+				<br /><br />
+				Wikipedia:<br />
+				<select id="hw-localize-wikipedia" name="hw-localize-wikipedia">
+				</select>
+				<br /><br />
+				Yahoo:<br />
+				<select id="hw-localize-Yahoo" name="hw-localize-Yahoo">
+				</select>
+				<br /><br />
+				Britannica:<br />
+				<select id="hw-localize-Britannica" name="hw-localize-Britannica">
+				</select>
+				<br /><br />
+				Craigslist city: <input type="text" name="hw-localize-craigslist" id="hw-localize-craigslist" value="">
+				
+				
+				<br /><br />
+				<br /><br />
+				<h2> Services </h2><br />
+				By default text is translated<br>
+				from 
+				<select id="hw-localize-translate-from" name="hw-localize-translate-from">
+				</select>
+				into
+				<select id="hw-localize-translate-to" name="hw-localize-translate-to">
+				</select>
+				<br /><br />
+				<input type="checkbox" name="hw-localize-translate-in-page" id="hw-localize-translate-in-page" value="1"> Translate in page
+				
+				<br /><br />
+				<br /><br />
+				<h2> Google Map Location </h2><br /> 
+				Home Location: <input type="text" name="hw-localize-google-map-home-location" id="hw-localize-google-map-home-location" value="">&nbsp;&nbsp;
+				Home Country: <input type="text" name="hw-localize-google-map-home-country" id="hw-localize-google-map-home-country" value="">
+				<br /><br />
+				Work Location: <input type="text" name="hw-localize-google-map-work-location" id="hw-localize-google-map-work-location" value="">&nbsp;&nbsp;
+				Work Country: <input type="text" name="hw-localize-google-map-work-country" id="hw-localize-google-map-work-country" value="">
+				
+		</div>
+		
+	
+		
+		<div id="hw-services">
+				<h2>WordPress settings</h2><br />		
+				Base URL: <input type="text" name="hw-services-wp-url" id="hw-services-wp-url" value="">	<br />
+				Your base URL should look like this https://your-username.wordpress.com. If you have your own WordPress server then your base URL may be http://www.yourserver.com/ or
+				http://www.yourserver.com/wordpress depending on the configuration of your server.
+				<br /><br />
+				<br /><br />
+				WordPress post URL suffix
+				<select id="hw-services-wp-post-url-suffix" name="hw-services-wp-post-url-suffix">
+					<option value="press-this.php">press-this.php</option>
+					<option value="post.php">post.php</option>
+				</select><br />
+				Different WordPress versions use for blog posting either 'post.php' file 'post-new.php' file. You should select the correct file name to enable WordPress support in the Hyperwords.
+				<br /><br />
+				<br /><br />
+				<h2>del.icio.us setting</h2><br />		
+				<input type="text" name="hw-services-delicious" id="hw-services-delicious" value="">	<br />
+				<br /><br />
+				<br /><br />
+				<h2>For copy, Send URL and Email use</h2><br />		
+				<select id="hw-services-copy-send-url-email" name="hw-services-copy-send-url-email">
+					<option value="fuo">Full URL only</option>
+					<option value="fuat">Full URL with auto-generated TinyURL</option>
+					<option value="fuas">Full URL with auto-generated SnipURL</option>
+				</select><br />
+				<br /><br />
+				<br /><br />
+				<h2>Place Quotes Around Google Searches</h2><br />	
+				<select id="hw-services-google-quotes" name="hw-services-google-quotes">
+					<option value="qatt">Quotes all the time</option>
+					<option value="nq">No quotes</option>
+					<option value="qafitt">Quotes apart from in the Toolbar</option>
+				</select><br />	
+				
+		</div>
+		
+		
+			
+		<div id="hw-views">
+				<h2>Link preview</h2><br />		
+				<input type="checkbox" name="hw-views-link-preview" id="hw-views-link-preview"> Show small Link Preview window (hold the Ctrl-key down and hover the link with mouse pointer).
+				<br /><br />
+				<br /><br />
+				<h2>Wikipedia Links</h2><br />				
+				<select id="hw-views-wikipedia-links" name="hw-views-wikipedia-links">
+					<option value="qb">Always black</option>
+					<option value="bwohw">Black, when opened from HW</option>
+					<option value="uc">Unchanged</option>
+				</select>
+		</div>
+		
+		
+	</div>	
+</div>
